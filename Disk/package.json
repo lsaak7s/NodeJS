@@ -2,7 +2,9 @@
   "name": "Nodejs",
   "version": "1.0.0",
   "description": "Conceitos Node",
+  "types": "module",
   "main": "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/lsaak7s/Disk/issues"
   },
-  "homepage": "https://github.com/lsaak7s/Disk#readme"
+  "homepage": "https://github.com/lsaak7s/Disk#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
