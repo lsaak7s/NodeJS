@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lsaak7s/Disk/issues"
   },
-  "homepage": "https://github.com/lsaak7s/Disk#readme"
+  "homepage": "https://github.com/lsaak7s/Disk#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
