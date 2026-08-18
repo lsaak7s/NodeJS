@@ -1,0 +1,21 @@
+{
+  "name": "Nodejs",
+  "version": "1.0.0",
+  "description": "Conceitos Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsaak7s/NodeJS"
+  },
+  "keywords": [],
+  "author": "Isaac Alves",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lsaak7s/Disk/issues"
+  },
+  "homepage": "https://github.com/lsaak7s/Disk#readme"
+}
