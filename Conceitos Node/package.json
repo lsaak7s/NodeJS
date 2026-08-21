@@ -1,0 +1,24 @@
+{
+  "name": "disk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsaak7s/Disk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lsaak7s/Disk/issues"
+  },
+  "homepage": "https://github.com/lsaak7s/Disk#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
