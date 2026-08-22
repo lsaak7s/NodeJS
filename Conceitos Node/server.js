@@ -1,3 +1,6 @@
+//isaacsantos7r_db_user
+//ce6BPLrzGIin7jWL
+//start from scratch
 //Detendo conhecimento Nodejs
 
 //Aqui eu estou importando a biblioteca no caso a express
