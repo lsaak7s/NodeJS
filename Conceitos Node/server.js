@@ -5,28 +5,27 @@ import express from 'express'
 
 //app é a nossa aplicação Express. É através dela que vamos criar as rotas, como GET e POST, e configurar o servidor.
 const app = express()
+//Estamos guardando os nossos usuarios
+const users = []
 
 //Temos que avisar para o express que estamos usando json se não ele não mostra o body
 app.use(express.json())
 
 //`:` diz que criamos uma variavel , porque sempre precisamos da variavel para guardar um valor
-//cria uma rota GET
-app.get('/get/:id', (req, res) => {
+//cria uma rota GET, que apenas busca a lista de usuarios
+app.get('/get/', (req, res) => {
 
-    //Aqui estamos imprimindo a requização
-    console.log(req)
-
-    res.send("get Acessado")
+    //Estamos mandnado a informação que ja temos
+    res.status(200).json(users)
 
 })
 
 //cria uma rota POST
-app.post('/post/:id', (req, res) => {
-
-    //Aqui estamos imprimindo a requização
-    console.log(req)
-
-    res.send("post Acessado")
+app.post('/post/', (req, res) => {
+    //aqui estamos mandando apenas a informação do body 
+    users.push(req.body)
+    //É aqui estamos respondendo de uma maneira mais bonita
+    res.status(201).json({ mensagem: "Usuario Criado com sucesso" })
 
 })
 
