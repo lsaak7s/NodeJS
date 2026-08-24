@@ -4,7 +4,7 @@
 //Detendo conhecimento Nodejs
 
 //Aqui eu estou importando a biblioteca no caso a express
-import { PrismaClient } from "./prisma/client.js";
+import { PrismaClient } from "./generated/prisma/client.js";
 import express from 'express'
 
 //app é a nossa aplicação Express. É através dela que vamos criar as rotas, como GET e POST, e configurar o servidor.
