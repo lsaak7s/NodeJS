@@ -4,12 +4,13 @@
 //Detendo conhecimento Nodejs
 
 //Aqui eu estou importando a biblioteca no caso a express
-import { PrismaClient } from "./generated/prisma/client.js";
+
+import { PrismaClient } from "./generated/prisma/client.js"
 import express from 'express'
 
 //app é a nossa aplicação Express. É através dela que vamos criar as rotas, como GET e POST, e configurar o servidor.
 const app = express()
-const prisma = new PrismaClient()
+const prisma = new PrismaClient();
 //Estamos guardando os nossos usuarios
 const users = []
 
@@ -17,6 +18,7 @@ const users = []
 app.use(express.json())
 
 //`:` diz que criamos uma variavel , porque sempre precisamos da variavel para guardar um valor
+
 //cria uma rota GET, que apenas busca a lista de usuarios
 app.get('/get/', (req, res) => {
 
@@ -24,7 +26,6 @@ app.get('/get/', (req, res) => {
     res.status(200).json(users)
 
 })
-
 //cria uma rota POST
 app.post('/post/', (req, res) => {
     //aqui estamos mandando apenas a informação do body 
@@ -36,3 +37,27 @@ app.post('/post/', (req, res) => {
 
 //coloca o servidor para "escutar" na porta 3000.
 app.listen(3000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+const prisma = new PrismaClient()
+
+import { PrismaClient } from "./generated/prisma/client.js";
+
+*/
