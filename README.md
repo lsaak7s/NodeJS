@@ -1,3 +1,1 @@
-Nodejs training
-<img width="1905" height="1060" alt="image" src="https://github.com/user-attachments/assets/3abd553a-8a27-4eba-ac07-acc2802e224d" />
-
+<img width="1896" height="1056" alt="image" src="https://github.com/user-attachments/assets/22af5b53-284c-4607-82ed-e6c549893808" />
