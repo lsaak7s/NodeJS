@@ -1,7 +1,3 @@
-/*Senhas do mongodb
-isaacsantos7r_db_user
-ce6BPLrzGIin7jWL*/
-
 //start from scratch
 
 //Detendo conhecimento Nodejs
@@ -10,12 +6,12 @@ ce6BPLrzGIin7jWL*/
 import { PrismaClient } from "./generated/prisma/client.js";
 import express from "express";
 
-//Temos que avisar para o express que estamos usando json se não ele não mostra o body
-app.use(express.json());
-
 //Aqui estamos colocando nossas Frameorks em variaveis
 const app = express();
 const prisma = new PrismaClient();
+
+//Temos que avisar para o express que estamos usando json se não ele não mostra o body
+app.use(express.json());
 
 //cria uma rota GET, que apenas busca a lista de usuarios
 app.get("/usuarios", async (req, res) => {
